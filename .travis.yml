@@ -4,7 +4,6 @@ dist: jammy
 os: linux
 
 script:
-  - sudo rm /etc/apt/sources.list.d/mongodb-org-6.0.list
   - ./ext/travisci/install-java.sh
   - ./ext/travisci/test.sh
 jobs:
